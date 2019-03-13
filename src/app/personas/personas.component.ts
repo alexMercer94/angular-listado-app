@@ -16,7 +16,6 @@ export class PersonasComponent implements OnInit {
   constructor(
     private personaService: PersonasService,
     private rotuter: Router) {
-
   }
 
   ngOnInit(): void {
